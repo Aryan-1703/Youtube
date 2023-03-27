@@ -1,0 +1,49 @@
+.side-bar {
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  width: 70px;
+  background-color: white;
+  padding-top: 5px;;
+}
+.video-time {
+  font-family: roboto, arial;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 4px;
+  border-radius: 2px;
+  width: 35px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 12px;
+
+}
+.sidebar-home{
+    height:75px;
+    margin-bottom: 1px;
+    cursor:pointer;
+}
+
+.sidebar-home:hover{
+    background-color: lightgray;
+    border-radius:5px;
+}
+.side-bar img{
+    height:25px;
+margin-bottom: 4px;
+}
+.sidebar-home{
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.sidebar-home div{
+    font-family: roboto,arial;
+    font-size:10px;
+    
+}
